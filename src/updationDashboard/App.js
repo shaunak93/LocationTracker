@@ -43,7 +43,7 @@ class App extends Component {
                 body : JSON.stringify(this.state.deviceList[id-1])
             })
             .then(function (response) {
-                this.setState({deviceList:response.json()})
+                //this.setState({deviceList:response.json()})
             })
             .catch(err => {
         
@@ -60,7 +60,7 @@ class App extends Component {
                     <Divider  />
                     {this.state.deviceList.map(device => {
                         return <div>
-                            <form style={{margin:'10px'}} >
+                            <form key={device.deviceId}style={{margin:'10px'}} >
                                 ID: {device.deviceId}
                                 <br/>
                                 Name: {device.deviceName}
