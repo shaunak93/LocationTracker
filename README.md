@@ -19,6 +19,8 @@ Note : Before starting LocationTracker dashboard, please start [LocationTrackerS
 Once [LocationTrackerServer](https://github.com/shaunak93/LocationTrackerServer) is up, start the [dashboard server](#run-server)
 
 localhost:3001/  -> to open tracker dashboard
+
+
 localhost:3001/updationDashboard  ->to update device information
 
 
