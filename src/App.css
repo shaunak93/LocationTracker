@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.openDrawerButton {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.map { 
+    width: stretch;
+    height: stretch;
+    background-color: blue;
+}
+
+.deviceInfoBox {
+    -webkit-box-sizing: content-box;
+ -moz-box-sizing: content-box;
+ box-sizing: content-box;
+ z-index: 1;
+ width: auto;
+ height: 50px;
+ position: fixed;
+ top: 15px;
+ right: 15px;
+ margin: auto;
+ padding: auto;
+ border: none;
+ font: normal 16px/47px "Times New Roman", Times, serif;
+ color: white;
+ -o-text-overflow: ellipsis;
+ text-overflow: ellipsis;
+ background: rgba(0,0,0,0.59);
+}
+
+.deviceInfoSpan{
+    margin-right: 10px;
+    margin-left: 10px;
+}
